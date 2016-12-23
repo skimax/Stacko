@@ -1,0 +1,148 @@
+.container {
+	max-width: 40em;
+    margin-left: auto;
+    margin-right: auto;
+	
+}
+
+
+.hidden {
+	display: none;
+}
+
+.left {
+	float: left;
+}
+
+.stack-image {
+background-image: url('images/stacko-icon.png'); 
+background-repeat:no-repeat center center;
+width: 200px;
+height: 200px;
+-webkit-background-size: cover;
+-moz-background-size: cover;
+-o-background-size: cover;
+background-size: cover;
+margin-right: 1em;
+border-radius: 5px;
+}
+
+.intro {
+	margin-bottom: 1em;
+}
+
+.stack {
+	clear: both;
+}
+
+.inspiration { 
+	margin-left: 3em;
+}
+
+
+dt {
+	color: #d64a1e;
+	font-weight: bold;
+	text-transform: uppercase;
+}
+
+
+.picture {
+	border-radius: 7px;
+}
+
+
+.result {
+    border: 1px solid black;
+	padding: 5px;
+	margin: 0 auto 1em auto;
+}
+
+
+.result1 {
+
+	border: 1px solid black;
+	padding: 5px;
+	margin: 0 auto 1em auto;
+}
+
+.error {
+	background-color: #F78181;
+	padding: 1em;
+}
+
+input[type="text"] {
+	width: 50%;
+	font-family: 'Karla', sans-serif;
+	font-size: 1rem;
+	height: 1.5rem;
+	border-radius: 3px;
+	padding: 10px;
+  	border: solid 2px #d64a1e;
+  	transition: border 0.3s;
+}
+
+
+
+input[type="submit"] {
+	font-family: 'Karla', sans-serif;
+	letter-spacing: 0.3rem;
+	font-size: 1rem;
+	text-transform: uppercase;
+	color: #fff;
+	margin-left: 1rem;
+	padding: 1rem 1rem 1rem;
+  	background-color: #d64a1e;
+  	border: none;
+  	border-radius: 4px;
+  	cursor: pointer;
+}
+
+
+input[type="submit"]:hover {
+  	opacity: 0.9;
+  	cursor: pointer;
+}
+
+
+.last {
+	position: absolute;
+    top:32rem;
+    margin-left: 15rem;
+    
+}
+
+
+
+@media only screen and ( min-width: 300px) and (max-width: 600px){
+
+input[type="text"] {
+	width: 70%;
+
+	
+}
+
+
+.last {
+	display: none;
+    
+}
+
+
+input[type="submit"] {
+	
+    width: 60%;
+	margin-left: 2rem;
+	margin-top: 1rem;
+	
+
+}
+
+.answersLink a {
+ margin-left: -2rem;
+
+}
+
+
+
+	}
